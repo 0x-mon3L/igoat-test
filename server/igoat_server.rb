@@ -59,7 +59,7 @@ require 'webrick'
 require 'webrick/https'
 require 'openssl'
 require 'json'
-require 'rack/handler/webrick'
+#require 'rack/handler/webrick'
 
 $request_count = 0
 $mutex = Mutex.new
