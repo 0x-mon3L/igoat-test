@@ -1,4 +1,4 @@
  #!/bin/bash
 gem install sinatra rack webrick
-bundle install
+#bundle install
 ruby $MAIN_APP_FILE 
